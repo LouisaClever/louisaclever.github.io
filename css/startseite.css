@@ -3,16 +3,17 @@ a{
   color: black;
 }
 
-
 a:visited {
   color: black;
 }
 
 a:hover {
   color: grey;
-  transition-timing-function: 0,5s;
 }
 
+* {
+  box-sizing: border-box;
+}
 h1 {
   font-size: 39px;
   font-family: 'Dosis', sans-serif;
@@ -29,22 +30,33 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-nav a {
-  text-decoration: none;
-  color: white;
-}
+
 .header {
   width: 100%;
   padding: 0 30;
   display: flex;
   align-items: baseline;
 }
-.nav nav ul,
-    nav li{
+.nav {
     list-style: none;
     border: 0;
     padding: 0 30;
     display: inline-block;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 25px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+}
+
+.nav a {
+  color: black;
+}
+
+.nav a:hover{
+  color: grey;
 }
 
 .image{
@@ -55,6 +67,7 @@ nav a {
 }
 
 
+
 .wrapper {
   background-color: white;
   margin-top: : 10px;
@@ -62,6 +75,15 @@ nav a {
   margin-bottom: 10px
   margin-right: auto;
   width:100%;
+}
+
+.lebenslauf {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 435px;
+  margin-top: 50px;
+  font-family: 'Dosis', sans-serif;
+
 }
 
 
@@ -87,28 +109,8 @@ h3 {
   font-family: 'Orbitron', sans-serif;
 }
 
-.aboutme {
-  margin-top: 20px;
-  width: 300px;
-
-}
-
-.projekte {
-
-  margin-top: 20px;
-  width: 300px;
-
-}
-
-.contact {
-  margin-top: 20px;
-  width: 300px;
-}
-
-
 .intro{
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-
 }
