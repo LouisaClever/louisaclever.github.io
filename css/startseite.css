@@ -66,6 +66,19 @@ body {
   margin-right: 0px;
 }
 
+.projects {
+  width: 300px;
+}
+
+.projects2 {
+  width: 400px;
+  margin-top: 10%;
+}
+
+.projects3 {
+  width: 50%;
+  margin-top: 10%;
+}
 
 
 .wrapper {
@@ -78,6 +91,15 @@ body {
 }
 
 .lebenslauf {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 435px;
+  margin-top: 50px;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.contacttext {
   display: flex;
   flex-flow: column wrap;
   margin-left: 435px;
@@ -99,9 +121,15 @@ margin-top: 50px;
 
 .pic-row {
 width: 100%;
-height: 100%;
+height: auto;
 }
 
+.projectphotos {
+  margin-left: 270px;
+  width: 1300px;
+
+
+}
 h3 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -113,4 +141,10 @@ h3 {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.ich_bild {
+
+  margin-top: 100px;
+
 }
